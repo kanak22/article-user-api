@@ -1,0 +1,931 @@
+{
+	"info": {
+		"_postman_id": "8fac83ff-05ca-49b0-9adf-f49cddc5f7f9",
+		"name": "Sploot-assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16561164"
+	},
+	"item": [
+		{
+			"name": "Get All Articles",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDc3NTg3MDJlMjNiNDBiNzRmYjRlZTUiLCJlbWFpbCI6InRlc3QxQGVtYWlsLmNvbSIsImlhdCI6MTY4NTU0MzA1Mn0.ipD71jHOtQ7b-Z69caXt1rk6ifgnac8g37I-vnN02Hc",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://sploot-assignment-wju1.onrender.com/api/articles",
+					"protocol": "https",
+					"host": [
+						"sploot-assignment-wju1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"articles"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "res",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDc3NTg3MDJlMjNiNDBiNzRmYjRlZTUiLCJlbWFpbCI6InRlc3QxQGVtYWlsLmNvbSIsImlhdCI6MTY4NTU0MzA1Mn0.ipD71jHOtQ7b-Z69caXt1rk6ifgnac8g37I-vnN02Hc",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://sploot-assignment-wju1.onrender.com/api/articles",
+							"protocol": "https",
+							"host": [
+								"sploot-assignment-wju1",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"articles"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 31 May 2023 14:29:28 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "7cffe8badf511be1-DEL"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1605-YST11pdIt1bAOB0j3RS3l7ghs08\""
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "content-security-policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "cross-origin-opener-policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "cross-origin-resource-policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "origin-agent-cluster",
+							"value": "?1"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-dns-prefetch-control",
+							"value": "off"
+						},
+						{
+							"key": "x-download-options",
+							"value": "noopen"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "0"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "__cf_bm=hr.NDqXQ4iEbokuNmLmQA.1YHFu3xh892kplDrY.F6I-1685543368-0-ASwZ2dw1MmN6EUjLIjBNJvH/dI6SzXOnKyISZSfQK+VTf3WD+GXgmZ7HFUuVGNdhMcdYCfrWF2HgkJ5IKSsSozM=; path=/; expires=Wed, 31-May-23 14:59:28 GMT; domain=.onrender.com; HttpOnly; Secure; SameSite=None"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_cfuvid=iGsFlStc6H0bpTI7b.F489I7PO6y7OyOMYXX_hXCPpc-1685543368495-0-604800000; path=/; domain=.onrender.com; HttpOnly; Secure; SameSite=None"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"data\": {\n        \"data\": [\n            {\n                \"_id\": \"647751cb58c7b5ee89e8fff9\",\n                \"authorID\": {\n                    \"_id\": \"6477505ceb3e506cc47aa421\",\n                    \"name\": \"Kanak\",\n                    \"email\": \"kanak123@email.com\",\n                    \"age\": 21\n                },\n                \"title\": \"test231\",\n                \"description\": \"Sociis natoque penatibus et magnis dis parturient montes nascetur. Sollicitudin ac orci phasellus egestas. Nam aliquam sem et tortor consequat id. Convallis aenean et tortor at risus viverra adipiscing at. Risus commodo viverra maecenas accumsan lacus. Egestas sed tempus urna et pharetra pharetra massa. In metus vulputate eu scelerisque felis imperdiet proin. In eu mi bibendum neque egestas. Sit amet facilisis magna etiam. Suspendisse potenti nullam ac tortor vitae purus faucibus. Integer enim neque volutpat ac tincidunt vitae. Pharetra et ultrices neque ornare aenean. \\n\\n Pretium quam vulputate dignissim suspendisse. Sed nisi lacus sed viverra. Aliquet nibh praesent tristique magna.Odio morbi quis commodo odio aenean. Faucibus a pellentesque sit amet porttitor eget dolor. Viverra ipsum nunc aliquet bibendum. Neque viverra justo nec ultrices dui sapien eget mi proin. Augue lacus viverra vitae congue. Fermentum posuere urna nec tincidunt praesent semper. Cras sed felis eget velit aliquet sagittis id. Tempor orci eu lobortis elementum. Pellentesque sit amet porttitor eget dolor morbi. Gravida cum sociis natoque penatibus. Euismod nisi porta lorem mollis aliquam. Tellus at urna condimentum mattis pellentesque.\"\n            },\n            {\n                \"_id\": \"64775232ceffa20d4ae0ecef\",\n                \"authorID\": {\n                    \"_id\": \"6477505ceb3e506cc47aa421\",\n                    \"name\": \"Kanak\",\n                    \"email\": \"kanak123@email.com\",\n                    \"age\": 21\n                },\n                \"title\": \"test231\",\n                \"description\": \"Sociis natoque penatibus et magnis dis parturient montes nascetur. Sollicitudin ac orci phasellus egestas. Nam aliquam sem et tortor consequat id. Convallis aenean et tortor at risus viverra adipiscing at. Risus commodo viverra maecenas accumsan lacus. Egestas sed tempus urna et pharetra pharetra massa. In metus vulputate eu scelerisque felis imperdiet proin. In eu mi bibendum neque egestas. Sit amet facilisis magna etiam. Suspendisse potenti nullam ac tortor vitae purus faucibus. Integer enim neque volutpat ac tincidunt vitae. Pharetra et ultrices neque ornare aenean. \\n\\n Pretium quam vulputate dignissim suspendisse. Sed nisi lacus sed viverra. Aliquet nibh praesent tristique magna.Odio morbi quis commodo odio aenean. Faucibus a pellentesque sit amet porttitor eget dolor. Viverra ipsum nunc aliquet bibendum. Neque viverra justo nec ultrices dui sapien eget mi proin. Augue lacus viverra vitae congue. Fermentum posuere urna nec tincidunt praesent semper. Cras sed felis eget velit aliquet sagittis id. Tempor orci eu lobortis elementum. Pellentesque sit amet porttitor eget dolor morbi. Gravida cum sociis natoque penatibus. Euismod nisi porta lorem mollis aliquam. Tellus at urna condimentum mattis pellentesque.\"\n            },\n            {\n                \"_id\": \"6477525ee4d46bbfb56d41d5\",\n                \"authorID\": {\n                    \"_id\": \"6477505ceb3e506cc47aa421\",\n                    \"name\": \"Kanak\",\n                    \"email\": \"kanak123@email.com\",\n                    \"age\": 21\n                },\n                \"title\": \"test231\",\n                \"description\": \"Sociis natoque penatibus et magnis dis parturient montes nascetur. Sollicitudin ac orci phasellus egestas. Nam aliquam sem et tortor consequat id. Convallis aenean et tortor at risus viverra adipiscing at. Risus commodo viverra maecenas accumsan lacus. Egestas sed tempus urna et pharetra pharetra massa. In metus vulputate eu scelerisque felis imperdiet proin. In eu mi bibendum neque egestas. Sit amet facilisis magna etiam. Suspendisse potenti nullam ac tortor vitae purus faucibus. Integer enim neque volutpat ac tincidunt vitae. Pharetra et ultrices neque ornare aenean. \\n\\n Pretium quam vulputate dignissim suspendisse. Sed nisi lacus sed viverra. Aliquet nibh praesent tristique magna.Odio morbi quis commodo odio aenean. Faucibus a pellentesque sit amet porttitor eget dolor. Viverra ipsum nunc aliquet bibendum. Neque viverra justo nec ultrices dui sapien eget mi proin. Augue lacus viverra vitae congue. Fermentum posuere urna nec tincidunt praesent semper. Cras sed felis eget velit aliquet sagittis id. Tempor orci eu lobortis elementum. Pellentesque sit amet porttitor eget dolor morbi. Gravida cum sociis natoque penatibus. Euismod nisi porta lorem mollis aliquam. Tellus at urna condimentum mattis pellentesque.\"\n            },\n            {\n                \"_id\": \"647759b82e23b40b74fb4ef0\",\n                \"authorID\": {\n                    \"_id\": \"647758702e23b40b74fb4ee5\",\n                    \"email\": \"test1@email.com\",\n                    \"name\": \"test\"\n                },\n                \"title\": \"article 2\",\n                \"description\": \"Sociis natoque penatibus et magnis dis parturient montes nascetur. Sollicitudin ac orci phasellus egestas. Nam aliquam sem et tortor consequat id. Convallis aenean et tortor at risus viverra adipiscing at. Risus commodo viverra maecenas accumsan lacus. Egestas sed tempus urna et pharetra pharetra massa. In metus vulputate eu scelerisque felis imperdiet proin. In eu mi bibendum neque egestas. Sit amet facilisis magna etiam. Suspendisse potenti nullam ac tortor vitae purus faucibus. Integer enim neque volutpat ac tincidunt vitae. Pharetra et ultrices neque ornare aenean. \\n\\n Pretium quam vulputate dignissim suspendisse. Sed nisi lacus sed viverra. Aliquet nibh praesent tristique magna.Odio morbi quis commodo odio aenean. Faucibus a pellentesque sit amet porttitor eget dolor. Viverra ipsum nunc aliquet bibendum. Neque viverra justo nec ultrices dui sapien eget mi proin. Augue lacus viverra vitae congue. Fermentum posuere urna nec tincidunt praesent semper. Cras sed felis eget velit aliquet sagittis id. Tempor orci eu lobortis elementum. Pellentesque sit amet porttitor eget dolor morbi. Gravida cum sociis natoque penatibus. Euismod nisi porta lorem mollis aliquam. Tellus at urna condimentum mattis pellentesque.\"\n            }\n        ]\n    },\n    \"error\": \"NA\",\n    \"message\": \"NA\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Create Article",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDc3NTg3MDJlMjNiNDBiNzRmYjRlZTUiLCJlbWFpbCI6InRlc3QxQGVtYWlsLmNvbSIsImlhdCI6MTY4NTU0MzA1Mn0.ipD71jHOtQ7b-Z69caXt1rk6ifgnac8g37I-vnN02Hc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\":\"article 2\",\r\n  \"description\":\"Sociis natoque penatibus et magnis dis parturient montes nascetur. Sollicitudin ac orci phasellus egestas. Nam aliquam sem et tortor consequat id. Convallis aenean et tortor at risus viverra adipiscing at. Risus commodo viverra maecenas accumsan lacus. Egestas sed tempus urna et pharetra pharetra massa. In metus vulputate eu scelerisque felis imperdiet proin. In eu mi bibendum neque egestas. Sit amet facilisis magna etiam. Suspendisse potenti nullam ac tortor vitae purus faucibus. Integer enim neque volutpat ac tincidunt vitae. Pharetra et ultrices neque ornare aenean. \\n\\n Pretium quam vulputate dignissim suspendisse. Sed nisi lacus sed viverra. Aliquet nibh praesent tristique magna.Odio morbi quis commodo odio aenean. Faucibus a pellentesque sit amet porttitor eget dolor. Viverra ipsum nunc aliquet bibendum. Neque viverra justo nec ultrices dui sapien eget mi proin. Augue lacus viverra vitae congue. Fermentum posuere urna nec tincidunt praesent semper. Cras sed felis eget velit aliquet sagittis id. Tempor orci eu lobortis elementum. Pellentesque sit amet porttitor eget dolor morbi. Gravida cum sociis natoque penatibus. Euismod nisi porta lorem mollis aliquam. Tellus at urna condimentum mattis pellentesque.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sploot-assignment-wju1.onrender.com/api/users/:userId/articles",
+					"protocol": "https",
+					"host": [
+						"sploot-assignment-wju1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"users",
+						":userId",
+						"articles"
+					],
+					"variable": [
+						{
+							"key": "userId",
+							"value": "647758702e23b40b74fb4ee5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "res",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDc3NTg3MDJlMjNiNDBiNzRmYjRlZTUiLCJlbWFpbCI6InRlc3QxQGVtYWlsLmNvbSIsImlhdCI6MTY4NTU0MzA1Mn0.ipD71jHOtQ7b-Z69caXt1rk6ifgnac8g37I-vnN02Hc",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"title\":\"article 2\",\r\n  \"description\":\"Sociis natoque penatibus et magnis dis parturient montes nascetur. Sollicitudin ac orci phasellus egestas. Nam aliquam sem et tortor consequat id. Convallis aenean et tortor at risus viverra adipiscing at. Risus commodo viverra maecenas accumsan lacus. Egestas sed tempus urna et pharetra pharetra massa. In metus vulputate eu scelerisque felis imperdiet proin. In eu mi bibendum neque egestas. Sit amet facilisis magna etiam. Suspendisse potenti nullam ac tortor vitae purus faucibus. Integer enim neque volutpat ac tincidunt vitae. Pharetra et ultrices neque ornare aenean. \\n\\n Pretium quam vulputate dignissim suspendisse. Sed nisi lacus sed viverra. Aliquet nibh praesent tristique magna.Odio morbi quis commodo odio aenean. Faucibus a pellentesque sit amet porttitor eget dolor. Viverra ipsum nunc aliquet bibendum. Neque viverra justo nec ultrices dui sapien eget mi proin. Augue lacus viverra vitae congue. Fermentum posuere urna nec tincidunt praesent semper. Cras sed felis eget velit aliquet sagittis id. Tempor orci eu lobortis elementum. Pellentesque sit amet porttitor eget dolor morbi. Gravida cum sociis natoque penatibus. Euismod nisi porta lorem mollis aliquam. Tellus at urna condimentum mattis pellentesque.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://sploot-assignment-wju1.onrender.com/api/users/:userId/articles",
+							"protocol": "https",
+							"host": [
+								"sploot-assignment-wju1",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"users",
+								":userId",
+								"articles"
+							],
+							"variable": [
+								{
+									"key": "userId",
+									"value": "647758702e23b40b74fb4ee5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 31 May 2023 14:29:12 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "7cffe8570b4e1be1-DEL"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"5cd-O664VXOhBKsCHDyGFPcP9zzsIjU\""
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "content-security-policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "cross-origin-opener-policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "cross-origin-resource-policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "origin-agent-cluster",
+							"value": "?1"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-dns-prefetch-control",
+							"value": "off"
+						},
+						{
+							"key": "x-download-options",
+							"value": "noopen"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "0"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "__cf_bm=mkZ2O3gD.ep2EcsB5jwFBaLJTgM8RRo7NGdvXhrsUTA-1685543352-0-AfsGdUa31s0tPhugLePmS7Sb3i31i99WD1AymGdJ095T6qCTNLl4eCrt1Riv3RzyFh2mIZ/+/pW6vW5u51lSw1A=; path=/; expires=Wed, 31-May-23 14:59:12 GMT; domain=.onrender.com; HttpOnly; Secure; SameSite=None"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_cfuvid=S5HdEFF8qtVb5jUUV9HIas2ytzF42o9yMcaQpqxoyAc-1685543352523-0-604800000; path=/; domain=.onrender.com; HttpOnly; Secure; SameSite=None"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 201,\n    \"data\": {\n        \"data\": {\n            \"authorID\": \"647758702e23b40b74fb4ee5\",\n            \"title\": \"article 2\",\n            \"description\": \"Sociis natoque penatibus et magnis dis parturient montes nascetur. Sollicitudin ac orci phasellus egestas. Nam aliquam sem et tortor consequat id. Convallis aenean et tortor at risus viverra adipiscing at. Risus commodo viverra maecenas accumsan lacus. Egestas sed tempus urna et pharetra pharetra massa. In metus vulputate eu scelerisque felis imperdiet proin. In eu mi bibendum neque egestas. Sit amet facilisis magna etiam. Suspendisse potenti nullam ac tortor vitae purus faucibus. Integer enim neque volutpat ac tincidunt vitae. Pharetra et ultrices neque ornare aenean. \\n\\n Pretium quam vulputate dignissim suspendisse. Sed nisi lacus sed viverra. Aliquet nibh praesent tristique magna.Odio morbi quis commodo odio aenean. Faucibus a pellentesque sit amet porttitor eget dolor. Viverra ipsum nunc aliquet bibendum. Neque viverra justo nec ultrices dui sapien eget mi proin. Augue lacus viverra vitae congue. Fermentum posuere urna nec tincidunt praesent semper. Cras sed felis eget velit aliquet sagittis id. Tempor orci eu lobortis elementum. Pellentesque sit amet porttitor eget dolor morbi. Gravida cum sociis natoque penatibus. Euismod nisi porta lorem mollis aliquam. Tellus at urna condimentum mattis pellentesque.\",\n            \"_id\": \"647759b82e23b40b74fb4ef0\",\n            \"createdAt\": \"2023-05-31T14:29:12.127Z\",\n            \"updatedAt\": \"2023-05-31T14:29:12.127Z\",\n            \"__v\": 0\n        }\n    },\n    \"error\": \"NA\",\n    \"message\": \"NA\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Update User",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDc3NTg3MDJlMjNiNDBiNzRmYjRlZTUiLCJlbWFpbCI6InRlc3QxQGVtYWlsLmNvbSIsImlhdCI6MTY4NTU0MzA1Mn0.ipD71jHOtQ7b-Z69caXt1rk6ifgnac8g37I-vnN02Hc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"test\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sploot-assignment-wju1.onrender.com/api/users/:userId",
+					"protocol": "https",
+					"host": [
+						"sploot-assignment-wju1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"users",
+						":userId"
+					],
+					"variable": [
+						{
+							"key": "userId",
+							"value": "647758702e23b40b74fb4ee5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "res",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDc3NTg3MDJlMjNiNDBiNzRmYjRlZTUiLCJlbWFpbCI6InRlc3QxQGVtYWlsLmNvbSIsImlhdCI6MTY4NTU0MzA1Mn0.ipD71jHOtQ7b-Z69caXt1rk6ifgnac8g37I-vnN02Hc",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"test\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://sploot-assignment-wju1.onrender.com/api/users/:userId",
+							"protocol": "https",
+							"host": [
+								"sploot-assignment-wju1",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"users",
+								":userId"
+							],
+							"variable": [
+								{
+									"key": "userId",
+									"value": "647758702e23b40b74fb4ee5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 31 May 2023 14:27:12 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "7cffe56abdc81be1-DEL"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"df-k64k3DIqaES/eirzXY6eOen1Unc\""
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "content-security-policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "cross-origin-opener-policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "cross-origin-resource-policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "origin-agent-cluster",
+							"value": "?1"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-dns-prefetch-control",
+							"value": "off"
+						},
+						{
+							"key": "x-download-options",
+							"value": "noopen"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "0"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "__cf_bm=cfjX0VC8XF9saOzf1K8yxJFMbMkPxjYd.N4oWxjb44M-1685543232-0-AeEzVhM1+Kk/HK9WgM/UWzaSIaFttsQ+862nPlL6rYGJJoqm6Y8SUoxAu0RaoJtWQUyzkFZZbdqNM0PTISAo+nY=; path=/; expires=Wed, 31-May-23 14:57:12 GMT; domain=.onrender.com; HttpOnly; Secure; SameSite=None"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_cfuvid=BmTpsBRr4ncrdrRnO_0EB1Ol..rOPabDkCt9zqPfVVA-1685543232584-0-604800000; path=/; domain=.onrender.com; HttpOnly; Secure; SameSite=None"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 201,\n    \"data\": {\n        \"data\": {\n            \"_id\": \"647758702e23b40b74fb4ee5\",\n            \"email\": \"test1@email.com\",\n            \"createdAt\": \"2023-05-31T14:23:44.116Z\",\n            \"updatedAt\": \"2023-05-31T14:27:12.174Z\",\n            \"__v\": 0,\n            \"name\": \"test\"\n        }\n    },\n    \"error\": \"NA\",\n    \"message\": \"NA\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Signup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"test1@email.com\",\r\n    \"password\":\"qwerty\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sploot-assignment-wju1.onrender.com/api/signup",
+					"protocol": "https",
+					"host": [
+						"sploot-assignment-wju1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"signup"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "res",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"test1@email.com\",\r\n    \"password\":\"qwerty\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://sploot-assignment-wju1.onrender.com/api/signup",
+							"protocol": "https",
+							"host": [
+								"sploot-assignment-wju1",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"signup"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 31 May 2023 14:23:44 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "7cffe0539f411be1-DEL"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"d1-wB6EKDd1NSfaoJrIJSXnP1WmZWA\""
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "content-security-policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "cross-origin-opener-policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "cross-origin-resource-policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "origin-agent-cluster",
+							"value": "?1"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-dns-prefetch-control",
+							"value": "off"
+						},
+						{
+							"key": "x-download-options",
+							"value": "noopen"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "0"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "__cf_bm=PBjJ8ST8rhzActBiUuL9KEihwysurzUoKKd4z5G520k-1685543024-0-AZYECmia6m42md/gXd9dOtjIz5yAl996gm8Z2EVX29148CzLxH4zXan0XHs1E+fzrSjvW3/ncTJNDy6cS5YX7aY=; path=/; expires=Wed, 31-May-23 14:53:44 GMT; domain=.onrender.com; HttpOnly; Secure; SameSite=None"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_cfuvid=21f7bZW7q6o3eBRrjMgntD2rR3TBwfySFOIjw9h847s-1685543024527-0-604800000; path=/; domain=.onrender.com; HttpOnly; Secure; SameSite=None"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"data\": {\n        \"data\": {\n            \"email\": \"test1@email.com\",\n            \"_id\": \"647758702e23b40b74fb4ee5\",\n            \"createdAt\": \"2023-05-31T14:23:44.116Z\",\n            \"updatedAt\": \"2023-05-31T14:23:44.116Z\",\n            \"__v\": 0\n        }\n    },\n    \"error\": \"NA\",\n    \"message\": \"NA\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"test1@email.com\",\r\n    \"password\":\"qwerty\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://sploot-assignment-wju1.onrender.com/api/login",
+					"protocol": "https",
+					"host": [
+						"sploot-assignment-wju1",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "res",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\":\"test1@email.com\",\r\n    \"password\":\"qwerty\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://sploot-assignment-wju1.onrender.com/api/login",
+							"protocol": "https",
+							"host": [
+								"sploot-assignment-wju1",
+								"onrender",
+								"com"
+							],
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Wed, 31 May 2023 14:24:12 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "CF-Ray",
+							"value": "7cffe106fdd71be1-DEL"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"f9-5nezCyrbuC+HdOIItf0zFppw2Ck\""
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "accesstoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDc3NTg3MDJlMjNiNDBiNzRmYjRlZTUiLCJlbWFpbCI6InRlc3QxQGVtYWlsLmNvbSIsImlhdCI6MTY4NTU0MzA1Mn0.ipD71jHOtQ7b-Z69caXt1rk6ifgnac8g37I-vnN02Hc; Path=/; Expires=Wed, 31 May 2023 14:25:52 GMT; HttpOnly; Secure"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "__cf_bm=sCKobFfE7NpDh.QOR.AgjByF712y4RtjGzMyZc7ooWA-1685543052-0-AZDEBik4HBp/uLlufsjZ84J1PDsHVp3y4SwmoIVRdt/LdwLSRU/dHuIbQB9K7wmXHpWFkc1eAQy6c8c6IzI8juA=; path=/; expires=Wed, 31-May-23 14:54:12 GMT; domain=.onrender.com; HttpOnly; Secure; SameSite=None"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "_cfuvid=b2..futGfbVs3CV7uJYczwBGAkU4Mg9.Uh1yWdKVuIc-1685543052780-0-604800000; path=/; domain=.onrender.com; HttpOnly; Secure; SameSite=None"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=15552000; includeSubDomains"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "content-security-policy",
+							"value": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests"
+						},
+						{
+							"key": "cross-origin-opener-policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "cross-origin-resource-policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "origin-agent-cluster",
+							"value": "?1"
+						},
+						{
+							"key": "referrer-policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "x-content-type-options",
+							"value": "nosniff"
+						},
+						{
+							"key": "x-dns-prefetch-control",
+							"value": "off"
+						},
+						{
+							"key": "x-download-options",
+							"value": "noopen"
+						},
+						{
+							"key": "x-frame-options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "x-permitted-cross-domain-policies",
+							"value": "none"
+						},
+						{
+							"key": "x-render-origin-server",
+							"value": "Render"
+						},
+						{
+							"key": "x-xss-protection",
+							"value": "0"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"statusCode\": 200,\n    \"data\": {\n        \"data\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDc3NTg3MDJlMjNiNDBiNzRmYjRlZTUiLCJlbWFpbCI6InRlc3QxQGVtYWlsLmNvbSIsImlhdCI6MTY4NTU0MzA1Mn0.ipD71jHOtQ7b-Z69caXt1rk6ifgnac8g37I-vnN02Hc\"\n    },\n    \"error\": \"NA\",\n    \"message\": \"NA\"\n}"
+				}
+			]
+		}
+	]
+}
