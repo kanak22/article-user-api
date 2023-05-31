@@ -1,5 +1,9 @@
 const authService = require('../services/authService');
 
+const home = async(req,res) => {
+  res.send("Hello there")
+}
+
 const signup = async (req, res) => {
   console.log(req.body);
 
